@@ -6,7 +6,7 @@ public class Percobaan1java_Kel04 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Nama: ");
-        String nama = input.next();
+        String nama = input.nextLine();
 
         System.out.print("Usia tahun ini: ");
         int umur = input.nextInt();
